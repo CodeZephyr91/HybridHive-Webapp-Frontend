@@ -37,7 +37,9 @@ const Homepage = () => {
       <section className='herosection'>
         <div className='Textalignment'>
           <h1 className='hybridhive-title'>HybridHive</h1>
-          <p className='typing-text' ref={typedRef}></p>
+          <div className="typing-container">
+            <p className='typing-text' ref={typedRef}></p>
+         </div>
         </div>
         <div className='myimage-style'>
           <img src={myimage} alt="Raods connection" />
