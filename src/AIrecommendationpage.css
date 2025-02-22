@@ -23,6 +23,7 @@
 .recommendation-container {
   width: 70%;
   max-height: 80vh;
+  max-width: 80vh;
   overflow: auto;
   margin: 20px auto;
   padding: 20px;
